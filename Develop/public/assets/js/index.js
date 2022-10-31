@@ -1,4 +1,4 @@
-let noteTitle;
+cdlet noteTitle;
 let noteText;
 let saveNoteBtn;
 let newNoteBtn;
