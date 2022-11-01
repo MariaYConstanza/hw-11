@@ -2,7 +2,7 @@ const express = require('express');
 const path = ('path');
 const noteData = require ('./db/db.json');
 
-const PORT = 3001;
+const PORT = process.env.port || 3001;
 
 const app = express();
 
@@ -19,5 +19,7 @@ app.get('/', (req, res) => {
 app.get('/api/notes', (req, res) => res.json(noteData));
 
 app.listen(PORT, () => {
-    console.log('Your app listening at http://localhost:${PORT} check it out!');
+    console.log(`Your app listening at http://localhost:${PORT} check it out!`);
 });
+
+// set up POST request and review
