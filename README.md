@@ -13,8 +13,5 @@ As a developer creating a note taking application that can write and save task f
 ## Deploy
 https://mariayconstanza.github.io/note-taker/
 
-## Screen Video
-
-
 ## Licenses
 Copyright https://github.com/MariaYConstanza/note-taker All rights reserved
