@@ -10,7 +10,7 @@ As a developer creating a note taking application that can write and save task f
 - MDN
 
 ## Deploy
-
+https://mariayconstanza.github.io/note-taker/
 
 ## Screen Video
 
